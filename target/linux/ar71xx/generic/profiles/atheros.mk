@@ -104,6 +104,17 @@ endef
 
 $(eval $(call Profile,AP152))
 
+define Profile/XD3200
+	NAME:=KSPOT XD3200
+	PACKAGES:=kmod-usb-core kmod-usb2 kmod-usb-storage
+endef
+
+define Profile/XD3200/Description
+	Package set optimized for the Qualcomm Atheros XD3200 reference board.
+endef
+
+$(eval $(call Profile,XD3200))
+
 define Profile/AP81
 	NAME:=Atheros AP81 reference board
 	PACKAGES:=kmod-usb-core kmod-usb2

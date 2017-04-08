@@ -38,6 +38,7 @@ enum ath79_mach_type {
 	ATH79_MACH_AP143,		/* Atheros AP143 reference board */
 	ATH79_MACH_AP147_010,		/* Atheros AP147-010 reference board */
 	ATH79_MACH_AP152,		/* Atheros AP152 reference board */
+	ATH79_MACH_XD3200,		/* KSPOT XD3200 */
 	ATH79_MACH_AP81,		/* Atheros AP81 reference board */
 	ATH79_MACH_AP83,		/* Atheros AP83 */
 	ATH79_MACH_AP96,		/* Atheros AP96 */

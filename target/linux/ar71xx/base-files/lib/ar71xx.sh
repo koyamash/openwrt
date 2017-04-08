@@ -416,6 +416,9 @@ ar71xx_board_detect() {
 	*"AP152 reference board")
 		name="ap152"
 		;;
+	*"KSPOT XD3200")
+		name="xd3200"
+		;;
 	*AP81)
 		name="ap81"
 		;;
