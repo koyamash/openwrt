@@ -110,7 +110,7 @@ define Profile/XD3200
 endef
 
 define Profile/XD3200/Description
-	Package set optimized for the Qualcomm Atheros XD3200 reference board.
+	Package set optimized for KSPOT XD3200.
 endef
 
 $(eval $(call Profile,XD3200))
