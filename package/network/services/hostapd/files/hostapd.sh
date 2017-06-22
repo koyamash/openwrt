@@ -118,6 +118,7 @@ hostapd_set_bss_options() {
 			[ "$auth_cache" -gt 0 ] || [[ "$rsn_preauth" = 1 ]] || append "$var" "okc=0" "$N"
 			config_get acct_server "$vif" acct_server
 			[ -n "$acct_server" ] && append "$var" "acct_server_addr=$acct_server" "$N"
+			append "$var" "radius_acct_interim_interval=600" "$N"
 			config_get acct_port "$vif" acct_port
 			[ -n "$acct_port" ] && acct_port=${acct_port:-1813}
 			[ -n "$acct_port" ] && append "$var" "acct_server_port=$acct_port" "$N"
